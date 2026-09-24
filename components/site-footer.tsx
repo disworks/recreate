@@ -2,7 +2,7 @@ const PRACTICE = ['Communications', 'Marketing', 'Media']
 const EXPLORE = [
   { label: 'Why DIS', href: '#why' },
   { label: 'Capabilities', href: '#capabilities' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Contact', href: 'mailto:contact@disworks.sg' },
 ]
 
 export function SiteFooter() {
