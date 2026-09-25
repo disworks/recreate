@@ -29,7 +29,7 @@ export function Hero() {
 
           <div className="flex flex-col gap-4 md:items-end">
             <a
-              href="mailto:contact@disworks.sg"
+              href="mailto:hello@disworks.sg"
               className="group inline-flex w-fit items-center gap-2 rounded-full bg-brand px-7 py-4 text-base font-semibold text-brand-foreground transition-transform hover:-translate-y-0.5"
             >
               Start a conversation

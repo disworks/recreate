@@ -31,7 +31,7 @@ export function CTA() {
           className="mt-12 flex flex-col items-center justify-center gap-6 md:flex-row"
         >
           <a
-            href="mailto:contact@disworks.sg"
+            href="mailto:hello@disworks.sg"
             className="group inline-flex items-center gap-3 rounded-full bg-brand px-8 py-4 text-base font-semibold text-brand-foreground transition-transform hover:-translate-y-0.5"
           >
             Talk to DIS
