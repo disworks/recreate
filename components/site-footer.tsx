@@ -1,5 +1,3 @@
-import { Instagram } from 'lucide-react'
-
 const PRACTICE = ['Communications', 'Marketing', 'Media']
 const EXPLORE = [
   { label: 'Why DIS', href: '#why' },
@@ -26,7 +24,20 @@ export function SiteFooter() {
               aria-label="Follow DIS on Instagram"
               className="mt-7 inline-flex items-center gap-2 text-sm text-foreground/90 transition-colors hover:text-brand"
             >
-              <Instagram aria-hidden="true" className="size-4" />
+              <svg
+                aria-hidden="true"
+                className="size-4"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" />
+                <circle cx="12" cy="12" r="4" />
+                <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" />
+              </svg>
               <span>Follow us on Instagram</span>
             </a>
           </div>
