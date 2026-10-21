@@ -1,3 +1,5 @@
+import { Instagram } from 'lucide-react'
+
 const PRACTICE = ['Communications', 'Marketing', 'Media']
 const EXPLORE = [
   { label: 'Why DIS', href: '#why' },
@@ -17,6 +19,16 @@ export function SiteFooter() {
             <p className="mt-3 text-xs tracking-[0.28em] text-muted-foreground">
               SAY IT DIFFERENT
             </p>
+            <a
+              href="https://instagram.com/disworks.sg"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Follow DIS on Instagram"
+              className="mt-7 inline-flex items-center gap-2 text-sm text-foreground/90 transition-colors hover:text-brand"
+            >
+              <Instagram aria-hidden="true" className="size-4" />
+              <span>Follow us on Instagram</span>
+            </a>
           </div>
 
           <div>
